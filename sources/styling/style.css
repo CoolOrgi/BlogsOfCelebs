@@ -1,0 +1,31 @@
+.text {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+h1, h4, p{
+	text-align: center;
+}
+
+body {
+	font-family: fantasy;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.col {
+  float: left;
+  width: 33%;
+  padding: 50px;
+  height: 300px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
